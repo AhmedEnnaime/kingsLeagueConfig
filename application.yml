@@ -8,6 +8,7 @@ spring:
           uri: https://github.com/AhmedEnnaime/kingsLeagueConfig.git
           skipSslValidation: true
           clone-on-start: true
+          default-label: master
 
 server:
   port: 8888
