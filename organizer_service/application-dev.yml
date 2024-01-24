@@ -1,8 +1,8 @@
 spring:
   application:
-    name: tournament-service
+    name: organizer_service
   datasource:
-    url: "jdbc:postgresql://localhost:5432/tournament_db"
+    url: "jdbc:postgresql://localhost:5432/organizer_db"
     username: "postgres"
     password: "3ea14367A4"
     driver-class-name: org.postgresql.Driver
@@ -14,7 +14,7 @@ spring:
       graphiql:
         enabled: true
 server:
-  port: 8083
+  port: 8081
 eureka:
   client:
     serviceUrl:
