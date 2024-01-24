@@ -1,8 +1,8 @@
 spring:
   application:
-    name: tournament_service
+    name: organizer_service
   datasource:
-    url: "jdbc:postgresql://localhost:5432/tournament_db"
+    url: "jdbc:postgresql://localhost:5432/organizer_db"
     username: "postgres"
     password: "3ea14367A4"
     driver-class-name: org.postgresql.Driver
