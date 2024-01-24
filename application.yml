@@ -9,6 +9,8 @@ spring:
           skipSslValidation: true
           clone-on-start: true
           default-label: master
+          search-paths:
+            - '{application}'
 
 server:
   port: 8888
