@@ -1,15 +1,15 @@
-spring:
-  application:
-    name: team_service
-  datasource:
-    url: "jdbc:postgresql://localhost:5432/team_db"
-    username: "postgres"
-    password: "3ea14367A4"
-    driver-class-name: org.postgresql.Driver
-    jpa:
-      database-platform: org.hibernate.dialect.PostgreSQLDialect
-      hibernate:
-        ddl-auto: update
+application:
+  name: team_service
+datasource:
+  url: "jdbc:postgresql://localhost:5432/team_db"
+  username: "postgres"
+  password: "3ea14367A4"
+  driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
 server:
   port: 8083
 eureka:
