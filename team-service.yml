@@ -1,6 +1,6 @@
 spring:
   application:
-    name: team_service
+    name: team-service
   datasource:
     url: "jdbc:postgresql://localhost:5432/team_db"
     username: "postgres"
