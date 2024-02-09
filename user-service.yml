@@ -1,8 +1,8 @@
 spring:
   application:
-    name: organizer_service
+    name: user-service
   datasource:
-    url: "jdbc:postgresql://localhost:5432/organizer_db"
+    url: "jdbc:postgresql://localhost:5432/user_db"
     username: "postgres"
     password: "3ea14367A4"
     driver-class-name: org.postgresql.Driver
