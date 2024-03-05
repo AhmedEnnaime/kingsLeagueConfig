@@ -11,14 +11,12 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-  graphql:
-    graphiql:
-      enabled: true
 
 server:
   port: 8082
 eureka:
   client:
+    enabled: true
     serviceUrl:
       defaultZone: ${EUREKA_URI:http://host.docker.internal:8761/eureka}
   instance:
