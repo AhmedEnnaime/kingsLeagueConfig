@@ -24,7 +24,7 @@ eureka:
 
 team_service:
   openapi:
-    dev-url: http://localhost:9090
+    dev-url: http://localhost:8083
 
 logging:
   level:
