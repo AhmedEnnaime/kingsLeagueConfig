@@ -21,6 +21,10 @@ eureka:
       defaultZone: ${EUREKA_URI:http://host.docker.internal:8761/eureka}
   instance:
     preferIpAddress: true
+    
+team-service:
+  openapi:
+    dev-url: http://localhost:9090
 
 logging:
   level:
